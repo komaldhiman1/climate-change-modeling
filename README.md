@@ -1,44 +1,44 @@
-# Customer-satisfaction-prediction
-
+# Climate Change Modeling using Machine Learning 
 
 ## 📌 Project Overview
-Customer satisfaction plays a crucial role in improving business services. This project aims to predict **customer satisfaction ratings** using machine learning techniques on customer support ticket data. The model analyzes various factors like **ticket type, resolution time, and priority level** to determine satisfaction levels.
+Climate change is one of the most pressing issues of our time. This project analyzes **climate change trends** using **Machine Learning and NLP techniques**. By examining **climate-related social media discussions, temperature changes, and CO₂ levels**, we aim to identify trends, sentiments, and key concerns related to climate change.
 
 ## 📊 Dataset Overview
-- **Dataset Source:** Customer Support Ticket Dataset
+- **Dataset Source:** Climate Change Research & Social Media Data
 - **Features:**
-  - Ticket Type (e.g., Billing Inquiry, Technical Issue)
-  - Ticket Status (Open, Closed, Pending)
-  - Resolution Time (Time taken to resolve the issue)
-  - Customer Demographics (Age, Gender, Product Purchased)
-  - Customer Satisfaction Rating (Target Variable, Scale 1-5)
+  - Temperature changes
+  - CO₂ levels and ocean acidity
+  - Social media discussions on climate change
+  - Public sentiment and engagement
+- **Target Variable:** Climate Change Impact Scores
 
 ## 🔬 Methodology
 ### **1️⃣ Data Preprocessing**
-- Removed missing values and handled categorical data using **Label Encoding**.
-- Scaled numerical features using **StandardScaler**.
+- Cleaned dataset using **Pandas and NumPy**.
+- Applied **text processing techniques** (Tokenization, Stopword Removal, Lemmatization).
 
-### **2️⃣ Exploratory Data Analysis (EDA)**
-- Analyzed customer complaint trends.
-- Identified **most common ticket types** and their impact on satisfaction.
-- Visualized **ticket resolution time vs. satisfaction ratings**.
+### **2️⃣ NLP Analysis**
+- **Sentiment Analysis:** Determined whether social media discussions were **positive, neutral, or negative**.
+- **Topic Modeling:** Used **Latent Dirichlet Allocation (LDA)** to extract key topics related to climate change.
+- **Trend Analysis:** Identified growing concerns about **extreme weather, government policies, and carbon emissions**.
+- **Engagement Analysis:** Analyzed how people engage with climate-related discussions on social media.
 
-### **3️⃣ Model Training & Evaluation**
-- **Algorithm Used:** Random Forest Classifier
-- **Evaluation Metrics:**
-  - **Accuracy Score**
-  - **Classification Report (Precision, Recall, F1-score)**
-  - **Confusion Matrix for Performance Analysis**
-- **Feature Importance Analysis:** Identified key factors affecting customer satisfaction.
+### **3️⃣ Model Implementation**
+- **Machine Learning Model Used:** Random Forest for climate trend forecasting.
+- **Evaluation Metrics:** RMSE (Root Mean Square Error) and accuracy scores.
 
 ## 📈 Results & Insights
-- **High-priority tickets** tend to have **lower satisfaction ratings**.
-- **Technical issues and billing inquiries** are major drivers of dissatisfaction.
-- Faster resolution times correlate with **higher customer satisfaction**.
+- Increasing **negative sentiment** towards climate policies in recent years.
+- **Extreme weather events** cause spikes in climate discussions.
+- **Predictive models suggest** rising public concerns over global warming.
 
 ## 🚀 Future Scope
-- Implementing **NLP-based ticket classification** to improve automation.
-- Experimenting with **Deep Learning models** for better prediction accuracy.
-- Deploying the model as a **web application** using Flask or Streamlit.
+- Implement **real-time climate monitoring dashboards**.
+- Extend analysis using **satellite image processing**.
+- Integrate **deep learning models** to improve accuracy in climate trend forecasting.
+
+
+
+
 
 
