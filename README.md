@@ -41,8 +41,4 @@ Customer satisfaction plays a crucial role in improving business services. This 
 - Experimenting with **Deep Learning models** for better prediction accuracy.
 - Deploying the model as a **web application** using Flask or Streamlit.
 
-## 🛠️ Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/customer-satisfaction-project.git
-   cd customer-satisfaction-project
+
