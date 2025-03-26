@@ -1,5 +1,5 @@
 # Customer-satisfaction-prediction
-# Customer Satisfaction Prediction 🚀
+
 
 ## 📌 Project Overview
 Customer satisfaction plays a crucial role in improving business services. This project aims to predict **customer satisfaction ratings** using machine learning techniques on customer support ticket data. The model analyzes various factors like **ticket type, resolution time, and priority level** to determine satisfaction levels.
